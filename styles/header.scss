@@ -1,2 +1,26 @@
 // Sækja config
+@import 'styles/config';
 // Allir stílar fyrir haus
+header {
+  background-attachment: fixed;
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  margin-bottom: 2rem;
+  width: 100%;
+
+  .content {
+    color: #eee;
+    margin: auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 6vmax;
+  }
+
+  h2 {
+    font-size: 3vmax;
+  }
+}

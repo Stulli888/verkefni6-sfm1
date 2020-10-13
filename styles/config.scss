@@ -1,3 +1,21 @@
 // Hér eiga að vera stillingar með scss breytum fyrir:
 // grid, max-width á síðu, transitions,
 // liti, margin-bottom gildi sem eru sameiginleg
+
+$gray: #ccc;
+$gray2: #eee;
+$black: #222;
+$border-black: #000;
+
+.col {
+  margin-bottom: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
